@@ -30,6 +30,7 @@
 @media (max-width: 768px){
     .page-three{
         font-size: 0.95rem;
+        padding: 1rem;
     }
 
     .article{
@@ -45,7 +46,7 @@
     }
 
     .article p{
-        font-size: clamp(1rem, 4vw, 1.25rem);
+        font-size: 1rem;
         max-width: 60ch;
     }
 }
