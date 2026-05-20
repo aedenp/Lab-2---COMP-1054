@@ -21,9 +21,9 @@
 }
 
 .article p {
-  font-size: 22px;      /* TODO: consider clamp() or rem */
-  line-height: 28px;    /* TODO: use unitless value, ex: 1.6 */
-  max-width: 1000px;    /* TODO: use 60ch or 65ch */
+  font-size: clamp(1.125rem, 4vw, 1.5rem);     /* TODO: consider clamp() or rem */
+  line-height: 1.6;    /* TODO: use unitless value, ex: 1.6 */
+  max-width: 65ch;    /* TODO: use 60ch or 65ch */
 }
 
 /* TODO: Add a media query.
