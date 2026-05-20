@@ -1,0 +1,33 @@
+.page-one {
+  font-size: 2rem;              /* TODO: increase to a readable rem value */
+  line-height: 1.6;              /* TODO: improve line-height */
+  color: #222;                 /* TODO: improve contrast */
+}
+
+.page-one p {
+  text-align: left;          /* TODO: paragraphs should not be centered */
+  text-transform: none;  /* TODO: remove random capitalization */
+  letter-spacing: normal;        /* TODO: reset letter spacing */
+}
+
+.page-one .hero-title {
+  font-family: Georgia, serif;
+}
+
+.page-one .intro {
+  font-family: "Comic Sans MS", cursive;
+}
+
+.page-one .card-title {
+  font-family: Impact, sans-serif;
+}
+
+.page-one .quote {
+  font-family: "Courier New", monospace;
+}
+
+.page-one .button {
+  font-family: Papyrus, fantasy;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+}
