@@ -1,0 +1,40 @@
+/* =========================================================
+   PAGE THREE: RESPONSIVE TYPOGRAPHY
+   Goal:
+   - use clamp()
+   - add media query
+   - readable line length with ch
+   - unitless line-height
+   ========================================================= */
+
+.page-three {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+.page-three h1 {
+  font-size: clamp(2rem, 5vw, 4rem); /* TODO: use clamp(), ex: clamp(2rem, 5vw, 4rem) */
+}
+
+.article h2 {
+  font-size: clamp(1.75rem, 4vw, 3rem); /* TODO: use clamp(), ex: clamp(1.75rem, 4vw, 3rem) */
+}
+
+.article p {
+  font-size: 22px;      /* TODO: consider clamp() or rem */
+  line-height: 28px;    /* TODO: use unitless value, ex: 1.6 */
+  max-width: 1000px;    /* TODO: use 60ch or 65ch */
+}
+
+/* TODO: Add a media query.
+Example:
+@media (max-width: 768px) {
+  .page-three {
+    font-size: 0.95rem;
+  }
+
+  .article {
+    padding: 1rem;
+  }
+}
+*/
