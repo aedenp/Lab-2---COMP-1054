@@ -1,0 +1,41 @@
+/* =========================================================
+   PAGE FOUR: CUSTOM WEB FONTS
+   Goal:
+   - add Google Fonts links in fonts.html
+   - replace weak font choices
+   - use proper fallback font stacks
+   ========================================================= */
+
+/* ============================================
+   PAGE FOUR – CUSTOM WEB FONTS
+   ============================================ */
+
+/* Body text font */
+body {
+  font-family: 'Source Sans 3', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Headings font – applies to all h1–h6 and specific title areas */
+h1, h2, h3, h4, h5, h6,
+.site-header h1,
+.mission-panel h2,
+.brand-panel h2 {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;  /* bold weight for strong hierarchy */
+  letter-spacing: -0.02em; /* optional: subtle tightening for headings */
+}
+
+/* Optional: keep button text consistent with body */
+.button {
+  font-family: inherit;
+}
+
+/* Eyebrow / small meta text uses body font too */
+.eyebrow {
+  font-family: 'Source Sans 3', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
