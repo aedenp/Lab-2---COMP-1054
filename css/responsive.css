@@ -26,15 +26,13 @@
   max-width: 65ch;    /* TODO: use 60ch or 65ch */
 }
 
-/* TODO: Add a media query.
-Example:
-@media (max-width: 768px) {
-  .page-three {
-    font-size: 0.95rem;
-  }
+/* TODO: Add a media query.*/
+@media (max-width: 768px){
+    .page-three{
+        font-size: 0.95rem;
+    }
 
-  .article {
-    padding: 1rem;
-  }
+    .article{
+        padding: 1rem;
+    }
 }
-*/
